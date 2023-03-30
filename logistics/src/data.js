@@ -44,3 +44,30 @@ export const about = [
     img: '../assets/shipping.png',
   },
 ]
+
+export const transport = [
+  {
+    id: 1,
+    title: 'Liquid Transportation',
+    text: 'Premium Tankers',
+    img: '../assets/liquid.png',
+  },
+  {
+    id: 2,
+    title: 'Packaging Solutions',
+    text: 'Warehouse Management',
+    img: '../assets/packaging.png',
+  },
+  {
+    id: 3,
+    title: 'Warehouse & Distribution',
+    text: 'Large Warehouse',
+    img: '../assets/distribution.png',
+  },
+  {
+    id: 4,
+    title: 'Specialized Transport',
+    text: 'Ocean Transports',
+    img: '../assets/ocean.png',
+  },
+]

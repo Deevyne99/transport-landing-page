@@ -6,7 +6,7 @@ import delivery from '../images/delivery.png'
 import optimize from '../images/optimize.png'
 const Global = () => {
   return (
-    <section className='mt-8'>
+    <section className='flex flex-col mt-8 h-[1000px]'>
       <div className='flex items-center h-[350px] w-full z-0'>
         <img src={container} alt='' />
       </div>
@@ -45,7 +45,7 @@ const Global = () => {
             </div>
           </div>
         </div>
-        <div className='flex '>
+        <div className='flex items-center'>
           <div className='flex p-8 border-t-[1px] border-b-[1px] border-[#D4D4D4] w-1/2 gap-4 items-center'>
             <h3 className='text-4xl font-bold'>1294</h3>
             <div className='w-[15px] h-[15px] bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116% '></div>
@@ -58,7 +58,6 @@ const Global = () => {
             <p>Delivery package</p>
           </div>
         </div>
-        hello
       </div>
     </section>
   )

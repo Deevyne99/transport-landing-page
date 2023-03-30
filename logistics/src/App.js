@@ -2,6 +2,7 @@ import About from './components/About'
 import Company from './components/Company'
 import Global from './components/Global'
 import Hero from './components/Hero'
+import Transport from './components/Transport'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <About />
       <Global />
+      <Transport />
     </>
   )
 }
