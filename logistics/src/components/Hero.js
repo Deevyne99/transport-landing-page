@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='h-[800px] bg-heroImage bg-cover bg-no-repeat bg-center w-full '>
       <header className='relative flex bg-[#091242] bg-opacity-25 h-[65px] '>
-        <nav className='lg:mx-8 xl:mx-40 flex justify-between  items-center w-full '>
+        <nav className='lg:mx-8 xl:mx-48 flex justify-between  items-center w-full '>
           <ul className=' flex group text-white lg:gap-4 xlgap-12 '>
             <div className='absolute bottom-0 h-[2px] bg-white w-[40px]'></div>
             <li>
@@ -46,7 +46,7 @@ const Hero = () => {
           </div>
         </nav>
       </header>
-      <article className='flex flex-col lg:mx-8 xl:mx-40 justify-center'>
+      <article className='flex flex-col lg:mx-8 xl:mx-48 justify-center'>
         <div className='flex h-[25px] bg-[#041C37] gap-2 mt-36 bg-opacity-50 w-[250px] items-center'>
           <div className='w-[5px] h-[25px] bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116%'></div>
           <p className='text-white text-sm'>
@@ -63,7 +63,7 @@ const Hero = () => {
         </p>
         <div className='flex items-center justify-center capitalize font-semibold mt-6 relative w-[160px] py-6 h-[25px] bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116%'>
           Explore more
-          <div className='bg-[#fff] absolute bottom-0 right-0 h-[25px] w-[25px]  rounded-l-lg rounded-r-lg rounded-t-full  rotate-[2deg] '></div>
+          <div className='bg-[#fff] absolute bottom-0 right-0 h-[25px] w-[25px]   rounded-t-full rounded-l-md  rotate-[270deg] '></div>
         </div>
       </article>
     </section>

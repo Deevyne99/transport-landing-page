@@ -3,7 +3,7 @@ import { about } from '../data'
 const About = () => {
   return (
     <section className='py-16'>
-      <div className='flex lg:mx-8 xl:mx-40'>
+      <div className='flex lg:mx-8 xl:mx-48'>
         <div className='flex flex-col xl:gap-8 lg:gap-8'>
           <div className='flex h-[25px] bg-[#E8E8E8] gap-2  bg-opacity-50 w-[120px] items-center'>
             <div className='w-[5px] h-[25px] bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116%'></div>

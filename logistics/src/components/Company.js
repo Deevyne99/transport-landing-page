@@ -4,7 +4,7 @@ import { companyInfo } from '../data'
 const Company = () => {
   return (
     <header className='bg-darkBlue py-10 '>
-      <div className='flex  lg:mx-8 xl:mx-40 justify-between  items-center'>
+      <div className='flex  lg:mx-8 xl:mx-48 justify-between  items-center'>
         <img src={logo} alt='' />
         <div className='flex justify-between gap-8 text-[#fff] text-sm'>
           {companyInfo.map((info) => {

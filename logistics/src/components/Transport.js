@@ -23,10 +23,10 @@ const Transport = () => {
           )
         })}
       </article>
-      <div className='flex h-[300px] w-full  bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116%'>
+      <div className='flex h-[300px]  bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116%'>
         <div className='flex items-center justify-center capitalize font-semibold  relative w-[160px] py-6 h-[25px] bg-darkBlue text-white mx-auto mt-36'>
-          Explore more
-          <div className='bg-[#1F2A69] absolute bottom-0 right-0 h-[25px] w-[25px]  rounded-l-lg rounded-r-lg rounded-t-full  rotate-[2deg] '></div>
+          More work
+          <div className='bg-[#1F2A69] absolute bottom-0 right-0 h-[25px] w-[25px]  rounded-l-md  rotate-[270deg] rounded-t-full  '></div>
         </div>
       </div>
     </section>

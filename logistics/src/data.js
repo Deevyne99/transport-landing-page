@@ -71,3 +71,49 @@ export const transport = [
     img: '../assets/ocean.png',
   },
 ]
+
+export const details = [
+  { id: 1, img: '../assets/safe.png', title: 'Safe Package' },
+  { id: 2, img: '../assets/ship.png', title: 'Ship Everyware' },
+  { id: 3, img: '../assets/global.png', title: 'Global Tracking' },
+  { id: 4, img: '../assets/support.png', title: '24/7 Support' },
+  { id: 5, img: '../assets/clock.png', title: 'In Time Delivery' },
+  { id: 6, img: '../assets/transparent.png', title: 'Transparant Pricing' },
+]
+
+export const transporters = [
+  {
+    id: 1,
+    img: '../assets/jessica.png',
+    name: 'Jessca Arow',
+    profession: 'Designer',
+    social: {
+      twitter: '../assets/twitter.png',
+      instagram: '../assets/instagram.png',
+      facebook: '../assets/twitter.png',
+    },
+  },
+
+  {
+    id: 2,
+    img: '../assets/smith.png',
+    name: 'Kathleen Smith',
+    profession: 'Designer',
+    social: {
+      twitter: '../assets/twitter.png',
+      instagram: '../assets/instagram.png',
+      facebook: '../assets/twitter.png',
+      linkedin: '../assets/linkedin.png',
+    },
+  },
+  {
+    id: 3,
+    img: '../assets/rebecca.png',
+    name: 'Rebecca Tylor',
+    profession: 'Designer',
+    social: {
+      instagram: '../assets/instagram.png',
+      facebook: '../assets/twitter.png',
+    },
+  },
+]
