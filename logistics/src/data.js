@@ -90,7 +90,7 @@ export const transporters = [
     social: {
       twitter: '../assets/twitter.png',
       instagram: '../assets/instagram.png',
-      facebook: '../assets/twitter.png',
+      facebook: '../assets/face.png',
     },
   },
 
@@ -102,7 +102,7 @@ export const transporters = [
     social: {
       twitter: '../assets/twitter.png',
       instagram: '../assets/instagram.png',
-      facebook: '../assets/twitter.png',
+      facebook: '../assets/face.png',
       linkedin: '../assets/linkedin.png',
     },
   },
@@ -113,7 +113,7 @@ export const transporters = [
     profession: 'Designer',
     social: {
       instagram: '../assets/instagram.png',
-      facebook: '../assets/twitter.png',
+      facebook: '../assets/face.png',
     },
   },
 ]

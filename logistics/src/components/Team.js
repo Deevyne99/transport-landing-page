@@ -16,9 +16,21 @@ const Team = () => {
         <div className='flex gap-8'>
           {transporters.map((item) => {
             const { id, name, profession, social, img } = item
+            const socialLinks = Object.values(social)
             return (
               <div key={id} className='flex  flex-col relative'>
-                <img src={img} alt='' />
+                <img src={img} className='' alt='' />
+                <div className='absolute h-18 bottom-0 w-full bg-[#1C1F35]'>
+                  <div className='p-4 text-white'>
+                    <strong className='  '>{name}</strong>
+                    <p className='text-sm font-thin'>{profession}</p>
+                  </div>
+                </div>
+                <div className='absolute flex gap-2 items-center p-2 h-12 w-30 bottom-12 right-0 bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116%'>
+                  {socialLinks.map((item) => {
+                    return <img src={item} alt='' className='w-[20px]' />
+                  })}
+                </div>
               </div>
             )
           })}
