@@ -12,6 +12,11 @@ module.exports = {
         pattern: "url('/src/images/Pattern.png')",
         sea: "url('/src/images/seaside.png')",
       },
+      fontFamily: {
+        krub: ['Krub', 'sans-serif'],
+        Rubik: ['Rubik', 'sans-serif'],
+        leagues: ['League Spartan', 'sans-serif'],
+      },
     },
   },
   plugins: [],

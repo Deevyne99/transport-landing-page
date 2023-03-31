@@ -11,30 +11,29 @@ const Footer = () => {
       <footer className='bg-[#091242]  flex flex-col'>
         <header className='bg-[#FFFFFF14]  w-full h-[50px] flex items-center '>
           <nav
-            className='lg:mx-8 xl:mx-48 flex gap-40  items-center 
+            className='lg:mx-20 xl:mx-48 flex gap-36  items-center 
           w-full '
           >
             <div className='bg-[#091242] w-[190px] p-4'>
-              <img src={logo} className='w-28' alt='' />
+              <img src={logo} className='w-32' alt='' />
             </div>
-            <ul className=' flex group text-white lg:gap-20 '>
-              <div className='absolute bottom-0 h-[2px] bg-white w-[40px]'></div>
+            <ul className=' flex group text-white lg:gap-20 font-Rubik text-md'>
               <li>
-                <a href=''>Pages</a>
+                <a href='#0'>Pages</a>
               </li>
 
               <li>
-                <a href=''>Utility</a>
+                <a href='#0'>Utility</a>
               </li>
               <li>
-                <a href=''>Subscribe </a>
+                <a href='#0'>Subscribe </a>
               </li>
             </ul>
           </nav>
         </header>
-        <div className='flex mt-4 mx-8 xl:mx-48 gap-14 pb-8'>
+        <div className='flex mt-4 mx-20 xl:mx-48 gap-14 pb-8'>
           <article>
-            <p className='max-w-[280px] text-sm text-[#E8E8E8]'>
+            <p className='max-w-[280px] text-sm text-[#E8E8E8] font-krub leading-5'>
               Leverage agile frameworks to provide a robust synopsis for
               strategy collaborative thinking to further the overall value
               proposition.
@@ -45,7 +44,7 @@ const Footer = () => {
                   const { id, title, icon, text } = info
                   return (
                     <article key={id}>
-                      <div className='flex gap-4 items-center'>
+                      <div className='flex gap-4 items-center text-[#fff] font-krub'>
                         <img src={icon} className='w-[50px]' alt='' />
                         <div>
                           <p>{title}</p>
@@ -59,48 +58,42 @@ const Footer = () => {
             </div>
           </article>
           <div className=''>
-            <ul className=' flex flex-col group text-white lg:gap-1 text-sm '>
+            <ul className=' flex flex-col group text-white lg:gap-3 text-sm font-krub'>
               <li>
-                <a href=''>About Us</a>
+                <a href='#0'>About Us</a>
               </li>
 
               <li>
-                <a href=''>Our Team</a>
+                <a href='#0'>Our Team</a>
               </li>
               <li>
-                <a href=''>Our Project</a>
+                <a href='#0'>Our Project</a>
               </li>
               <li>
-                <a href=''>Pricing</a>
+                <a href='#0'>Pricing</a>
               </li>
               <li>
-                <a href=''>Contact </a>
-              </li>
-              <li>
-                <a href=''>Subscribe </a>
+                <a href='#0'>Contact </a>
               </li>
             </ul>
           </div>
           <div className=''>
-            <ul className=' flex flex-col group text-white lg:gap-1 text-sm '>
+            <ul className=' flex flex-col group text-white lg:gap-3 font-krub text-sm '>
               <li>
-                <a href=''>About Us</a>
+                <a href='#0'>Style Guide</a>
               </li>
 
               <li>
-                <a href=''>Our Team</a>
+                <a href='#0'>Changelog</a>
               </li>
               <li>
-                <a href=''>Our Project</a>
+                <a href='#0'>Licenses</a>
               </li>
               <li>
-                <a href=''>Pricing</a>
+                <a href='#0'>Protected</a>
               </li>
               <li>
-                <a href=''>Contact </a>
-              </li>
-              <li>
-                <a href=''>Subscribe </a>
+                <a href='#0'>Not Found</a>
               </li>
             </ul>
           </div>
@@ -110,7 +103,7 @@ const Footer = () => {
               type='text'
             />
             <div className='flex mt-4 items-center gap-4'>
-              <button className='w-[140px] bg-red-300 p-2 bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116% font-semibold'>
+              <button className='w-[140px] bg-red-300 p-2 bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116% font-semibold text-[#23212A]'>
                 Send Now
               </button>
               <div className='flex gap-4  items-center'>
@@ -122,12 +115,12 @@ const Footer = () => {
           </div>
         </div>
         <div className='w-full border-t-[1px]  border-[#4E5683]'>
-          <div className='flex mx-8 xl:mx-48 py-4 justify-between items-center'>
-            <p className='text-[#FFFFFF] text-sm'>
+          <div className='flex mx-20 xl:mx-48 py-4 justify-between items-center'>
+            <p className='text-[#FFFFFF] text-sm font-krub'>
               Copyright © TransitFlow | Designed by VictorFlow - Powered by
               Webflow.
             </p>
-            <div className='flex gap-6 text-[#8388A7] capitalize'>
+            <div className='flex gap-6 text-[#8388A7] capitalize font-krub'>
               <p>style guide </p>
               <p>liscense</p>
               <p>changelog</p>

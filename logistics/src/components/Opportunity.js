@@ -20,17 +20,17 @@ const Opportunity = () => {
         <div className='w-1/2 bg-[#F4F4F4] '>
           <div className='bg-pattern mt-8 h-[200px]  w-full bg-center bg-cover bg-no-repeat'>
             <div className='flex flex-col xl:p-20 lg:p-16 ml-[30px] gap-4 '>
-              <div className='flex h-[25px] bg-[#E8E8E8] gap-2  bg-opacity-50 w-[120px] items-center'>
+              <div className='flex h-[25px] bg-[#E8E8E8] gap-2  bg-opacity-50 w-[105px] items-center'>
                 <div className='w-[5px] h-[25px] bg-gradient-to-r from-[#FFB629] from-[-1.21%] via-[#FFDA56] via-58% to-[#FFD7A6] to-116%'></div>
                 <p className='text-[#1C1F35] text-sm font-semibold'>
-                  Testimonial
+                  Why Choose
                 </p>
               </div>
               <div className='flex flex-col gap-4 justify-between'>
-                <h3 className='text-3xl font-bold w-md text-[#1C1F35]'>
+                <h3 className='text-3xl font-bold w-[400px] font-Rubik text-[#1C1F35]'>
                   We create opportunity to reach potential
                 </h3>
-                <p className='max-w-sm text-sm'>
+                <p className='max-w-sm text-sm font-krub text-[#666C89]'>
                   Leverage agile frameworks to provide a robust synopsis for
                   strategy foster collaborative thinking to further the overall
                   value proposition.{' '}
@@ -46,7 +46,9 @@ const Opportunity = () => {
                         src={img}
                         alt=''
                       />
-                      <strong className='text-sm'>{title}</strong>
+                      <p className='text-md font-Rubik text-[#1C1F35]'>
+                        {title}
+                      </p>
                     </div>
                   )
                 })}

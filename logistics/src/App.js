@@ -1,4 +1,5 @@
 import About from './components/About'
+import Blog from './components/Blog'
 import Company from './components/Company'
 import Contact from './components/Contact'
 import Customers from './components/Customers'
@@ -21,6 +22,7 @@ function App() {
       <Opportunity />
       <Team />
       <Contact />
+      <Blog />
       <Footer />
     </>
   )
